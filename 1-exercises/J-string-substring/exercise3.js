@@ -10,8 +10,12 @@ let statement = "I do not like programming";
 
 let result = "";
 
-console.log(result);
+let statementStart = statement.substring(0, 4);
+let statementEnd = statement.substring(8, 26);
 
+result = statementStart + statementEnd;
+
+console.log(result);
 /* EXPECTED OUTPUT 
 
   "I do like programming"

@@ -15,7 +15,9 @@
   
 */
 
-function getSettlers() {}
+function getSettlers(voyagers) {
+return voyagers.filter(col => col.startsWith("A") && col.endsWith("family"));
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
